@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background Demo</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .imgBackground {
+        width: 100%;
+        height: 100vh;
+        background-color: blue;
+        background-image: url("images/logo.png");
+        background-repeat: no-repeat; /*this property will not repeat the image*/
+        background-repeat: repeat-x; /* Repeat horizontally */
+        background-repeat: repeat-y; /* Repeat Vertically*/
+        background-size: 100% 100%; /* Ste the image in center of the page*/
+
+        /* To make parallax website*/
+        background-image: url("images/photo.jpeg");
+        background-attachment: fixed;
+      }
+
+      .imgBackground1 {
+        width: 100%;
+        height: 100vh;
+
+        /* To make parallax website*/
+        background-size: 100% 100%;
+        background-image: url("images/photo1.jpg");
+        background-attachment: fixed;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="imgBackground"></div>
+    <p>
+      Amet sit dolor diam duo aliquyam accusam amet clita, stet nonumy ea justo
+      justo nonumy. Ipsum magna labore clita dolor. Sea sit ut accusam et tempor
+      stet, lorem duo eos aliquyam eirmod. Amet tempor takimata magna ea at,
+      erat invidunt sit nonumy diam et lorem ut sed, eos est sit consetetur
+      dolor ipsum eos nonumy clita. Lorem takimata et labore lorem ipsum
+      takimata magna lorem, gubergren sed tempor eos aliquyam labore vero. Duo
+      ut diam takimata gubergren sed erat sit sanctus. Nonumy voluptua sit
+      consetetur sadipscing. Sed stet et aliquyam gubergren at sed, ea eirmod
+      dolor labore voluptua ea et..
+    </p>
+
+    <div class="imgBackground1"></div>
+  </body>
+</html>

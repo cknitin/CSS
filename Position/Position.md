@@ -14,7 +14,7 @@
 
 #### CSS for position
 
-        ** {
+        * {
           margin: 0;
           padding: 0;
         }
@@ -88,7 +88,7 @@
 
 #### CSS for three columns
 
-        ** {
+        * {
             margin: 0;
             padding: 0;
         }
