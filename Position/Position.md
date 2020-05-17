@@ -12,8 +12,6 @@
           <div class="child5">child 5</div>
       </div>
 
-
-
 #### CSS for position
 
         ** {
@@ -74,7 +72,6 @@
           transform: translate(-50%, -50%);
         }
 
-
 #### Result
 
 ![CSS position result](https://github.com/cknitin/CSS/blob/master/Position/images/Position.PNG)
@@ -88,8 +85,6 @@
             <div class="center"></div>
             <div class="right"></div>
         </div>
-
-
 
 #### CSS for three columns
 

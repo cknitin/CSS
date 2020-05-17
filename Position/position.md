@@ -11,9 +11,8 @@
           <div class="child4">child 4</div>
           <div class="child5">child 5</div>
       </div>
-      
-      
-#### CSS for position 
+
+#### CSS for position
 
         ** {
           margin: 0;
@@ -72,7 +71,61 @@
 
           transform: translate(-50%, -50%);
         }
-        
+
 #### Result
 
-![CSS position result](https://github.com/cknitin/CSS/blob/master/Position/images/Position.PNG)     
+![CSS position result](https://github.com/cknitin/CSS/blob/master/Position/images/Position.PNG)
+
+## 2. Three Columns
+
+#### Html
+
+        <div class="container">
+            <div class="left"></div>
+            <div class="center"></div>
+            <div class="right"></div>
+        </div>
+
+#### CSS for three columns
+
+        ** {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: pink;
+        }
+
+        .container {
+            width: 100%;
+            position: relative;
+        }
+
+        .left {
+            width: 20%;
+            height: 100vh;
+            margin: 0 0 0 5%;
+            background-color: red;
+            position: absolute;
+            left: 0;
+        }
+
+        .center {
+            width: 40%;
+            height: 100vh;
+            margin: 0 5% 0 5%;
+            background-color: green;
+            position: absolute;
+            left: 25%;
+        }
+
+        .right {
+            width: 20%;
+            height: 100vh;
+            margin: 0 5% 0 0;
+            background-color: yellow;
+            position: absolute;
+            right: 0;
+        }
+
+![Three Column result](https://github.com/cknitin/CSS/blob/master/Position/images/three-column.PNG)
