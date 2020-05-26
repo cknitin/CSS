@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Demo</title>
+    <link rel="stylesheet" href="site.css" />
+
+    <style>
+      body {
+        font-family: Arial, Helvetica;
+      }
+      h1 {
+        padding: 0 0 0 40px;
+      }
+
+      .container {
+        background: #eee;
+        width: 400px;
+        margin: 50px auto 0;
+        padding: 10px;
+        border: 3px solid #000;
+
+        display: flex;
+        /* flex-direction: row;
+        flex-wrap: wrap; */
+        flex-flow: column wrap;
+      }
+
+      .item1 {
+        background-color: orangered;
+      }
+      .item2 {
+        background-color: yellowgreen;
+      }
+      .item3 {
+        background-color: mediumpurple;
+      }
+      .item4 {
+        background-color: hotpink;
+      }
+      .item5 {
+        background-color: orangered;
+      }
+      .item6 {
+        background-color: grey;
+      }
+      .item7 {
+        background-color: red;
+      }
+      .item8 {
+        background-color: silver;
+      }
+      .item9 {
+        background-color: gold;
+      }
+      .item10 {
+        background-color: blue;
+      }
+
+      .item {
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item item1">One</div>
+      <div class="item item2">Two</div>
+      <div class="item item3">Three</div>
+      <div class="item item4">Four</div>
+      <div class="item item5">Five</div>
+      <div class="item item6">six</div>
+      <div class="item item7">Seven</div>
+      <div class="item item8">Eight</div>
+      <div class="item item9">Nine</div>
+      <div class="item item10">Ten</div>
+    </div>
+  </body>
+</html>
